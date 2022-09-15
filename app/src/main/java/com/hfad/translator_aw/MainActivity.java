@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnTranslate.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Override //Change Here
             public void onClick(View view) {
 
                 if (spLanguages.getSelectedItem().toString().equals("English")) {
